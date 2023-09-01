@@ -1,0 +1,35 @@
+.video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+  
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Oswald Regular', sans-serif;
+}
+
+p {
+    font-size: larger;
+}
+
+a {
+    color: #dc3545;
+}
+
+.gradient-text {
+    background-image: linear-gradient(#f6bd31, #ac9400); 
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
